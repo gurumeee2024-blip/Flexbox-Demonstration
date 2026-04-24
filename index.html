@@ -3,111 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
+        <header class = "header">
+          <h1>CSS Grid Layout</h1>
+              <nav class = "nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+              </nav>
+        </header>
 
-    <!-- Navigation Bar -->
-    <nav class ="nav">
-        <h1 style="font-size: 40px;">CSS Flexbox Demonstration</h1>
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+        <div class="layout">
+          <div class="sidebar">
+              <h2 style="color: rgb(17, 138, 168);">Sidebar</h2>
+              <ul>
+                  <li>Grid Basics</li>
+                  <li>Grid Areas</li>
+                  <li>Responsive Grid</li>
+                  <li>Grid vs FLexbox</li>
+              </ul>
+          </div>
+
+          <div class="content">
+              <div class="card">
+                  <img src="https://wallpaperaccess.com/full/1241786.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 1</h3>
+                    <p>Learn the fundamentals of CSS Grid Layout and create complex web designs with ease</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="http://getwallpapers.com/wallpaper/full/4/f/5/369080.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 2</h3>
+                    <p>Combine grid with other layout techniques for amazing results</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="http://getwallpapers.com/wallpaper/full/7/5/0/482924.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 3</h3>
+                    <p>Create responsive designs without media queries using auto-fit</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="https://wallpaperaccess.com/full/472834.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 4</h3>
+                    <p>Master grid template areas for responsive layouts</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="https://www.pixelstalk.net/wp-content/uploads/2016/03/Cute-Animal-Wallpaper-HD-desktop.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 5</h3>
+                    <p>Construct Grid layouts using display function</p>
+                  </div>
+              </div>
+              <div class="card">
+                  <img src="https://wallup.net/wp-content/uploads/2016/01/229576-animals-polar_bears-snow-baby_animals-748x499.jpg" alt="">
+                  <div>
+                    <h3>Grid Item 6</h3>
+                    <p>Easy to make responsive using one single line</p>
+                  </div>
+              </div>
+              
+          </div>
         </div>
-    </nav>
 
-
-    <!-- Hero Content -->
-    <header class="header">
-        <h2 style="font-size: 30px;">Welcome to Our Flexbox Demo</h2>
-        <br>
-        <p style="font-size: 20px;">Learn how to create flexible layouts with CSS Flexbox.</p>
-        <button class = "btn">Get Started</button>
-    </header>
-
-
-    <!--Features Section-->
-    <br><br><br>
-    <h2 style="font-size: 30px; text-align: center;">Our Features</h2>
-    <div class="feature-container">
-        <div class="feature-item">
-            <img src="https://miro.medium.com/v2/resize:fit:2000/1*qF8LfAwUhl57g9T0BVvVdg.jpeg" alt="Feature 1">
-            <div class="feature-content">
-                <h3>Responsive Design</h3>
-                <p>Flexbox makes creating responsive layouts simple and intuitive.</p>
+        <div class="content-2">
+            <div class="card-2">
+                <h3>Responsive</h3>
+                <p>Adjust to all screen sizes</p>
+            </div>
+            <div class="card-2">
+                <h3>Flexible</h3>
+                <p>Easy to rearrange elements</p>
+            </div>
+            <div class="card-2">
+                <h3>Powerful</h3>
+                <p>Two-Dimenssional layouts</p>
             </div>
         </div>
 
-        <div class="feature-item">
-            <img src="https://i.ytimg.com/vi/egp0n1yQ8Xo/maxresdefault.jpg" alt="Feature 1">
-            <div class="feature-content">
-                <h3>Alignment</h3>
-                <p>Easily align items vertically and horizontally with minimal code.</p>
-            </div>
-        </div>
-
-        <div class="feature-item">
-            <img src="https://www.uxdesigninstitute.com/blog/wp-content/uploads/2023/04/242_responsive_grids_illustration_blog-1.png" alt="Feature 1">
-            <div class="feature-content">
-                <h3>Flexible Layouts</h3>
-                <p>Create fluid layouts that adapt to different screen sizes.</p>
-                <br>
-            </div>
-        </div>
-    </div>
-
-    <!--Gallery Section-->
-    <br><br><br>
-    <h2 style="font-size: 30px; text-align: center;">Gallery</h2>
-    <div class="gallery-container">
-        <div class="gallery-item">
-            <img src="https://wallpapercave.com/wp/eB5PrOP.jpg" alt="Gallery Item 1">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.hdqwalls.com/download/2020-black-spiderman-4k-artwork-ul-1920x1080.jpg" alt="Gallery Item 2">
-        </div>
-        <div class="gallery-item">
-            <img src="https://wallpapercave.com/wp/wp13172618.jpg" alt="Gallery Item 3">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.wallpapersden.com/image/download/cool-red-hulk-artistic_bmhlaGaUmZqaraWkpJRnamtlrWZpaGo.jpg" alt="Gallery Item 4">
-        </div>
-        <div class="gallery-item">
-            <img src="https://i.pinimg.com/originals/d3/c6/09/d3c609cd1e8744cb674ce51f8a80c273.png" alt="Gallery Item 5">
-        </div>
-        <div class="gallery-item">
-            <img src="https://images.hdqwalls.com/download/superman-in-strange-world-cm-2560x1440.jpg" alt="Gallery Item 6">
-        </div>
-    </div>
-
-    <!--Footer Section-->
-    <br><br><br><br>
-    <footer class="footer">
-        <div class="footer-content">
-            <h3 style="color: rgb(43, 111, 158);">About Us</h3>
-            <p>We are passionate about teaching CSS Flexbox and helping developers create responsive web designs.</p>
-        </div>
-
-        <div class="footer-content">
-            <h3 style="color: rgb(43, 111, 158);">Quick Links</h3>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </div>
-
-        <div class="footer-content">
-            <h3 style="color: rgb(43, 111, 158);">Contact Us</h3>
-            <p>Email: gurumeee2024@jerusalemengg.ac.in</p>
-        </div>  
-    </footer>
-
-    <div style="text-align: center; padding: 40px; background-color: rgb(34, 50, 63); color: white;">
-        <p style="padding: 10px auto;">&copy; 2026 CSS Flexbox Demo. All rights reserved.</p>
-    </div>
-
+        <footer class = "footer">
+          <p>&copy; 2026 CSS Guide Demo, All rights reserved</p>
+        </footer>
+        
 </body>
 </html>
